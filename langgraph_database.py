@@ -1,5 +1,5 @@
 import streamlit as st
-from langgraph_chatbot.langgraph_database_backend import chatbot, retrieve_all_threads, get_titles,save_title
+from langgraph_database_backend import chatbot, retrieve_all_threads, get_titles,save_title
 
 from langchain_core.messages import HumanMessage,AIMessage
 
